@@ -4,11 +4,14 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://qramo.github.io',
+	base: 'astro-test3',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'aaa My Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				//github: 'https://github.com/withastro/starlight',
+				twitter:'https://x.com/qramo'
 			},
 			sidebar: [
 				{
@@ -25,4 +28,5 @@ export default defineConfig({
 			],
 		}),
 	],
+	output: 'static',
 });
