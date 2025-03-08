@@ -8,7 +8,7 @@ export default defineConfig({
 	base: 'astro-test3',
 	integrations: [
 		starlight({
-			title: 'aaa My Docs',
+			title: 'Portfolio',
 			social: {
 				//github: 'https://github.com/withastro/starlight',
 				twitter:'https://x.com/qramo'
